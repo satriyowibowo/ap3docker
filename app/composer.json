@@ -14,7 +14,18 @@
         "psr-4": {
             "Ahadmart\\Ahadpos3\\": "src/",
             "Yiisoft\\yii\\": "vendor/yiisoft/yii/framework"
-        }
+        },
+        "classmap":[
+            "src/protected/migrations/",
+            "src/protected/models/",
+            "src/protected/commands/",
+            "src/protected/components/",
+            "src/protected/ws/",
+            "src/protected/extensions/",
+            "src/protected/controllers/",
+            "src/protected/controllers/tools/",
+            "src/protected/tests/"
+        ]       
     },
     "authors": [
         {
